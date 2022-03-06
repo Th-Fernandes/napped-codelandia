@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "neutrals": {
+      "white": "#FEFBFB",
+      "white-200": "#C4C4C4",
+      "gray-200": "#282830",
+      "dark": "#13131F"
+    },
+
+    "primary": {
+      "purple-light": "#8257E6"
+    }
+  }
+}
