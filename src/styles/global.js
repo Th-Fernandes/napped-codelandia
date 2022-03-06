@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import pallet from "../../config.json"
 
 export const GlobalStyle = createGlobalStyle`
 * {
@@ -14,12 +15,21 @@ li {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #13131f;
   min-height: 100vh;
   padding: 2.6rem 2rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+} 
+
+::-webkit-scrollbar-thumb {   
+background-color: ${pallet.colors.primary['purple-light']}   
 }
 
 :root {
