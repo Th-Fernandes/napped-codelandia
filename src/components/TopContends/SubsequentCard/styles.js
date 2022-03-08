@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import cardThumb from "../../../img/example-subsequent-thumb.svg";
+import cardAnimation from "../../../styles/cardAnimation";
 
 export const StyledSubsequentCard = styled.li`
   width: 33.8rem;
@@ -11,6 +12,11 @@ export const StyledSubsequentCard = styled.li`
   background-image: url(${cardThumb.src});
   background-repeat: no-repeat;
   background-size: cover;
+  ${cardAnimation.mainStyle}
+  
+  &:hover {
+    ${cardAnimation.hoverStyle}
+  }
 
   > p {
     align-self: flex-end;

@@ -4,6 +4,7 @@ import MostWatched from "../src/components/MostWatched/MostWatched"
 import NapedApresentation from "../src/components/NapedApresentation/NapedApresentation"
 import TopContend from "../src/components/TopContends/TopContend"
 import Footer from "../src/components/Footer/Footer"
+import News from "../src/components/News/News"
 
 export default function Home() {
   const router = useRouter()
@@ -13,9 +14,10 @@ export default function Home() {
     <MainHeader />
 
     <main>
-      <NapedApresentation/>
-      <TopContend />
+      <NapedApresentation />
+      <TopContend/>
       <MostWatched />
+      <News />
     </main>
     
     <Footer />

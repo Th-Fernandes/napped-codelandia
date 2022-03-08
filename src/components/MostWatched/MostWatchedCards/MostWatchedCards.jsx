@@ -1,21 +1,20 @@
 import { StyledCards } from "./styles";
 import DefaultClass from "../../utils/DefaultClass/DefaultClass";
+import DefaultCard from "../../utils/DefaultCard/DefaultCard"
+import thumb from "../../../img/card-example.svg"
+import UnderlinedH2 from "../../utils/UnderlinedH2/UnderlinedH2";
 
 export default function MostWatchedCards() {
+  console.log(thumb.src)
+
   return (
     <StyledCards>
-      <h2>Lorem ipsum dolor</h2>
+      <UnderlinedH2>Lorem ipsum dolor</UnderlinedH2>
 
       {
         [1, 2, 3].map((el) => {
           return (
-            <li className="card" key={el}>
-              <DefaultClass />
-
-              <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.
-              </p>
-            </li>
+            <DefaultCard thumb={thumb.src} />
           )
         })
       }

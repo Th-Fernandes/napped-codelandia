@@ -3,6 +3,7 @@ import pallet from "../../../config.json";
 
  export const StyledNapedApresentation = styled.article`
  margin: 11.4rem auto 0;
+ user-select: none;
 
   h1 {
     font-size: 4.8rem;

@@ -1,5 +1,9 @@
+import MainHeader from "../src/components/MainHeader/MainHeader";
+
 export default function AnimePage() {
   return (
-    <h2>worked</h2>
+    <>
+    <MainHeader />
+    </>
   )
 }

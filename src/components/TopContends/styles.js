@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import mainCardBg from "../../img/example-main-thumb.svg";
+import pallet from "../../../config.json";
+import cardAnimation from "../../styles/cardAnimation";
 
 export const StyledTopContend = styled.section`
   margin: 8rem auto 0;
   display: flex;
-  
 
   .main-contend {
     max-width: 76.1rem;
@@ -14,6 +15,11 @@ export const StyledTopContend = styled.section`
     display: flex;
     flex-wrap: wrap;
     align-content: space-bettwen;
+    ${cardAnimation.mainStyle}
+  }
+
+  .main-contend:hover {
+    ${cardAnimation.hoverStyle}
   }
 
   .main-contend > p {
@@ -47,7 +53,6 @@ export const StyledTopContend = styled.section`
 
   @media(max-width: 768px) and(min-width: 501px) {
     flex-wrap: wrap;
-    
 
     .subsequent-contends {     
       margin: 1rem 0 0 0;

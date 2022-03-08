@@ -1,10 +1,14 @@
-import { StyledTopContend } from "./styles"
-import DefaultClass from "../utils/DefaultClass/DefaultClass"
-import SubsequentCard from "./SubsequentCard/SubsequentCard"
+import { StyledTopContend } from "./styles";
+import DefaultClass from "../utils/DefaultClass/DefaultClass";
+import SubsequentCard from "./SubsequentCard/SubsequentCard";
+import React from "react";
 
-export default function TopContend() {
+export default function TopContend(props) {
   return (
-    <StyledTopContend className="container-default-size">
+    <StyledTopContend 
+      className="container-default-size" 
+
+    >
       <div className="main-contend">
         <DefaultClass />
         <p>

@@ -21,7 +21,7 @@ export default function MessageError() {
           onClick={() =>{
             rout.push('../')
           } }>
-          click here
+          Voltar a Home
         </DefaultButton>
       </StyledArticle>
   )

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import pallet from "../../../../config.json";
-import thumb from "../../../img/card-example.svg";
+import cardAnimation from "../../../styles/cardAnimation"
+
 export const StyledCards = styled.ul`
   flex-grow: 1;
   margin-left: 2.2rem;
@@ -20,21 +21,16 @@ export const StyledCards = styled.ul`
     background-color: ${pallet.colors.primary["purple-light"]}
   }
 
-  .card {
-    background-image: url(${thumb.src});
-    height: 25rem;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
+  li {
+    ${cardAnimation.mainStyle};
+  }
+  
+  li:hover {
+    ${cardAnimation.hoverStyle}
   }
 
-  .card:not(first-child) {
+  li:not(first-child) {
     margin-top: 4.7rem;
-  }
-
-  .card > p {
-    font-size: 1.3rem;
   }
 
   @media(max-width: 768px) {
@@ -45,7 +41,7 @@ export const StyledCards = styled.ul`
       margin: 1rem auto 0;
     }
 
-    .card {
+    > li {
       background-size: cover;
       background-position: center;
       width: 90%;

@@ -55,4 +55,10 @@ button {
 .container-default-size {
   max-width: 112rem;
 }
+
+a {
+  text-decoration: none;
+  color: ${pallet.colors.neutrals.white};
+  cursor: pointer;
+}
 `
