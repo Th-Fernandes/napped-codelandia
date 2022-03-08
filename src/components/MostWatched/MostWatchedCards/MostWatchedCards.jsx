@@ -11,9 +11,9 @@ export default function MostWatchedCards() {
       <UnderlinedH2>Lorem ipsum dolor</UnderlinedH2>
 
       {
-        [1, 2, 3].map((el) => {
+        [1, 2, 3].map((el, index) => {
           return (
-            <DefaultCard thumb={thumb.src} />
+            <DefaultCard thumb={thumb.src} key={index} />
           )
         })
       }

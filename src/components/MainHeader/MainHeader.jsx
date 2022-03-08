@@ -2,7 +2,8 @@ import headerLogo from "img/header-logo.svg";
 import LoginButton from "./LoginButton/LoginButton";
 import { Header } from "./styles";
 import mobileMenu from "img/mobile/menu-icon.svg";
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
+import Image from "next/image";
 
 export default function MainHeader() {
   const rout = useRouter()
@@ -19,7 +20,11 @@ export default function MainHeader() {
   return(
     <Header>
       <span> 
-        <img src={headerLogo.src} alt="voltar ao menu principal" />
+        <Image 
+          src={headerLogo.src} 
+          alt="voltar ao menu principal"
+          width={74} height={24}  
+        />
       </span>
       
       <div className="user-navegation">
@@ -36,7 +41,13 @@ export default function MainHeader() {
         </nav>
         
         {/* FUTURAMENTE IRÁ SE TRANSFORMAR EM UM COMPONENT */}
-        <img className="visible" src={mobileMenu.src} />
+        <Image 
+          className="visible" 
+          src={mobileMenu.src}
+          alt="menu principal"
+          width={24}
+          height={28}
+        />
 
         <LoginButton />
       </div>
