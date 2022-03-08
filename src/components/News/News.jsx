@@ -1,7 +1,7 @@
 import { StyledNews } from "./styles";
-import UnderlinedH2 from "../utils/UnderlinedH2/UnderlinedH2";
-import DefaultCard from "../utils/DefaultCard/DefaultCard";
-import thumb from "../../img/GTAV.svg"
+import UnderlinedH2 from "components/utils/UnderlinedH2/UnderlinedH2";
+import DefaultCard from "components/utils/DefaultCard/DefaultCard";
+import thumb from "img/GTAV.svg"
 
 
 export default function News() {

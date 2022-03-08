@@ -1,5 +1,5 @@
 import { StyledTopContend } from "./styles";
-import DefaultClass from "../utils/DefaultClass/DefaultClass";
+import DefaultClass from "components/utils/DefaultClass/DefaultClass";
 import SubsequentCard from "./SubsequentCard/SubsequentCard";
 import React from "react";
 

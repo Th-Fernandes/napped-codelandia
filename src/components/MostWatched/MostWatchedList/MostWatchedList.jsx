@@ -1,5 +1,5 @@
-import DefaultClass from "../../utils/DefaultClass/DefaultClass";
-import DefaultButton from "../../utils/DefaultButton/DefaultButton";
+import DefaultClass from "components/utils/DefaultClass/DefaultClass";
+import DefaultButton from "components/utils/DefaultButton/DefaultButton";
 import { StyledUl } from ".";
 
 export default function MostWatchedList() {

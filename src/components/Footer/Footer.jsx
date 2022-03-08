@@ -1,4 +1,4 @@
-import napedLogo from "../../img/header-logo.svg";
+import napedLogo from "img/header-logo.svg";
 import { StyledFooter } from "./styles";
 
 export default function Footer() {

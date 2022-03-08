@@ -1,6 +1,6 @@
-import headerLogo from "../../../img/header-logo.svg"
-import error404 from "../../../img/404.svg"
-import { Header } from "./styles"
+import headerLogo from "img/header-logo.svg";
+import error404 from "img/404.svg";
+import { Header } from "./styles";
 
 export default function Header404() {
   return (

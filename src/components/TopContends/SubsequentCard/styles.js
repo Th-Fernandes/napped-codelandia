@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import cardThumb from "../../../img/example-subsequent-thumb.svg";
-import cardAnimation from "../../../styles/cardAnimation";
+import cardThumb from "img/example-subsequent-thumb.svg";
+import cardAnimation from "styles/cardAnimation";
 
 export const StyledSubsequentCard = styled.li`
   width: 33.8rem;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import thumb from "../../../img/most-watched-thumb.svg";
+import thumb from "img/most-watched-thumb.svg";
 import pallet from "../../../../config.json";
 
 export const StyledUl = styled.ul`

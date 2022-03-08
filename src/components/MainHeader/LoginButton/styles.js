@@ -9,6 +9,11 @@ export const StyledLoginButton = styled.button`
   border-Radius: 3rem;
   font-Size: 1.4rem;
   margin-left: 8.4rem;
+  transition: 0.25s background-color;
+
+  &:hover {
+    background-color: ${pallet.colors.primary["purple-light"]};
+  }
 
   @media(max-width: 1024px) {
     margin: 0;

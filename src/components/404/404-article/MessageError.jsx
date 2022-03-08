@@ -1,4 +1,4 @@
-import DefaultButton from "../../utils/DefaultButton/DefaultButton"
+import DefaultButton from "components/utils/DefaultButton/DefaultButton";
 import { StyledArticle } from "./style";
 import { useRouter } from 'next/router';
 

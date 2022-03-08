@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import mainCardBg from "../../img/example-main-thumb.svg";
-import pallet from "../../../config.json";
-import cardAnimation from "../../styles/cardAnimation";
+import mainCardBg from "img/example-main-thumb.svg";
+import cardAnimation from "styles/cardAnimation";
 
 export const StyledTopContend = styled.section`
   margin: 8rem auto 0;
