@@ -1,0 +1,24 @@
+{
+  "titulos": [
+    {
+      "nome": "Naruto",
+      "sinopse": "01 -Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "thumb": "https://cdn.pensador.com/img/authors/na/ru/naruto-l.jpg",
+      "genero": "anime"   
+    },
+
+    {
+      "nome":"Shingeki no Kyojin",
+      "sinopse": "02 -Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "thumb": "https://i1.wp.com/www.jbox.com.br/wp/wp-content/uploads/2021/11/eren-shingeki-destacada.jpg?fit=774%2C489&quality=99&strip=all&ssl=1",
+      "genero": "anime"
+    },
+
+    {
+      "nome": "Demon Slayer",
+      "sinopse": "03 -Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "thumb": "https://tm.ibxk.com.br/ms/images/highlights/000/053/730/2128.jpg",
+      "genero": "anime"
+    }
+  ]
+}

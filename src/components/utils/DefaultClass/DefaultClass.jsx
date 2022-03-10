@@ -1,9 +1,9 @@
 import { StyledDefaultClass } from "./styles"
 
-export default function DefaultClass() {
+export default function DefaultClass(props) {
   return (
     <StyledDefaultClass className="default-category">
-      Lorem
+      {props.gender || 'Lorem'}
     </StyledDefaultClass>
   )
 }

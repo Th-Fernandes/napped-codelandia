@@ -61,4 +61,14 @@ a {
   color: ${pallet.colors.neutrals.white};
   cursor: pointer;
 }
+
+input {
+  border: none;
+  transition: .2s outline;
+}
+
+input:focus {
+  outline: 2px solid ${pallet.colors.primary["purple-light"]};
+}
+
 `

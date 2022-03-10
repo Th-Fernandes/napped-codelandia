@@ -49,7 +49,7 @@ export default function MainHeader() {
           height={28}
         />
 
-        <LoginButton />
+        <LoginButton onClick={() => rout.push('./login')} />
       </div>
     </Header>
   )
